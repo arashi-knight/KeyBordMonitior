@@ -389,6 +389,7 @@
             this.uiSymbolButton1.SymbolSize = 30;
             this.uiSymbolButton1.TabIndex = 3;
             this.uiToolTip1.SetToolTip(this.uiSymbolButton1, "前往github");
+            this.uiSymbolButton1.Click += new System.EventHandler(this.uiSymbolButton1_Click);
             // 
             // uiSymbolButton_tea
             // 
@@ -414,6 +415,7 @@
             this.uiSymbolButton_gitee.Symbol = 61907;
             this.uiSymbolButton_gitee.TabIndex = 4;
             this.uiToolTip1.SetToolTip(this.uiSymbolButton_gitee, "前往gitee");
+            this.uiSymbolButton_gitee.Click += new System.EventHandler(this.uiSymbolButton_gitee_Click);
             // 
             // uiLabel5
             // 

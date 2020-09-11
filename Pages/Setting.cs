@@ -184,6 +184,16 @@ namespace KeyBordMonitor
             KeyData_Total.ExportToExcel();
             System.Diagnostics.Process.Start(Path.GetDirectoryName(str));
         }
+
+        private void uiSymbolButton_gitee_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://gitee.com/arashi-knight/KeyBordMonitior");
+        }
+
+        private void uiSymbolButton1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/arashi-knight/KeyBordMonitior");
+        }
     }
 }
  
